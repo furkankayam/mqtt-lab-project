@@ -8,7 +8,7 @@ import org.eclipse.paho.client.mqttv3.MqttException;
 public class MqttConfig {
 
     private static final String MQTT_PUBLISHER_ID = "spring-server";
-    private static final String MQTT_SERVER_ADDRES= "tcp://192.168.56.1:1883";
+    private static final String MQTT_SERVER_ADDRES= "tcp://192.168.1.85:1883";
     private static IMqttClient instance;
 
     public static IMqttClient getInstance() {
